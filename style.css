@@ -15,21 +15,38 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #081363;
+    margin: auto;
     font-weight: 600;
     line-height: 1.3;
 }
 
-h1 {
-    align-content: center;
+#top {
+    background: lightblue;
+}
+
+button {
+  background-color: darkgreen; /* Green */
+  border: 5px;
+  color: lightcyan;
+  padding: 25px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*h1 {
     text-align: center;
     width: 600px;
     margin-top: 1em;
     background: #73C779;
-    border-color: blue;
-    border-bottom-color: brown;
-    border: 10px;
+    border-color: blue;*/
+    /*border: 1px solid blue;*/
+/*    border-bottom-style: ridge;
     border-bottom-width: 10px;
+    border-bottom-color: brown;
 }
+*/
 
 h2 {
     margin-top: 4em;
@@ -45,9 +62,17 @@ h3 {
     padding: 1em;
     padding-left: 10em;
 }
-p {
+.text {
     padding-left: 5em;
     color: #0127B3
+}
+
+#id
+{
+}
+
+h1#id
+{
 }
 
 ol {padding-left: 10em;
