@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>You can do it!</title>
     <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js">
+        </script>
+
     </head>
 
     
@@ -33,28 +37,71 @@ Basic format is:
     <h3>Section 1 - Put the sentence in order</h3>
     <p>A. Yesterday,</p>
     <ol>
-        <li>I begged for money.</li>
+        <li class="text">I begged for money.</li>
         <li>I went to the store</li>
         <li>had forgotten my wallet, so</li>
         <li>but I </li>
         
     </ol>
-    </main>
-<img src="./images/soccer-1457988_640.jpg" alt="Soccer player about to kick the ball">
-
+    <h3>Section 2 - Tell us your opinion</h3>
     
-    <p>
-        <a href="www.google.com">Click here to see the answers</a>
+<label for="loadpic">
+    <button id="buttonpic">Step 1: Click here to load a picture</button>
+        </label>
+<br>
+<br>    
+<p><img id="pic1" src="./images/000.jpg" alt="Click the button" style="float:left;width:320px;height:228px;"></p>
+
+<br>
+    
+<!-- CHECK BOXES -->       
+<label for="like"><input id="like" type="checkbox" name="feeling"> I sometimes like</label>
+    <br>
+<label for="dislike"><input id="dislike" type="checkbox" name="feeling"> I sometimes dislike
+    </label>
+    <br>
+<label for="dontcare"><input id="dontcare" type="checkbox" name="feeling"> I sometimes don't care about
+    </label>
+
+<br>
+<br>
+    
+<!-- RADIO BUTTONS// -->    
+<label for="soccer"> 
+  <input id="soccer" type="radio" name="pic1">Choice 1 
+    </label>
+<label for="pokemon">
+    <input id="pokemon" type="radio" name="pic1">Choice 2
+    </label>
+<label for="woman">
+    <input id="woman" type="radio" name="pic1">Choice 3
+    </label>
+<!-- //RADIO BUTTONS -->
+    
+<br>
+<br>
+    <p><strong>Feedback:</strong></p>
+    </main>    
+    <br>
+    <br>
+    
+    <label for="resetpic">
+    <button id="resetpic">Reset the picture</button>
+        </label>
+    
+    <h3> Great work!</h3>
+    <p class="text">
+        <a href="www.google.com" target="_blank">Click here move to next section</a>
     </p>
-    <p>
-        <a href="#top">Go to top</a>
+    <p class="text">
+        <a href="#top">Go to top </a>
     </p>
     <p>
         <a href="#footer">Go to bottom of the page</a>
     </p>
     
     
-    <footer id="footer">This is the end of the page</footer>
+    <h1 id="footer">This is the end of the page</h1>
 </body>
 
     
